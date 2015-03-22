@@ -48,14 +48,13 @@ working directory to that folder before running the script by using the command
 >setwd("set the directory here")
 
 It will then automatically run through all the steps required to create a tidy dataset, including
-	* loading the required text files from the downloaded dataset
-	* merging factor variables such as "subject" and "activity" to the measurement variables dataset using "column binding"
-	* adding descriptive variable names
-	* merging/concatenating the training dataset and the test dataset using "row binding"
-	* I've added a step here to add a factor variable, data_type, that notes which observations came from the test or training data
-	* filter the dataset so that only mean or standard deviation measurements are included. I've assumed that variables labelled
-	.meanFreq are not calculated means
-	* add descriptive row names for the activity factor variable
-	* create a tidy dataset with the average of each variable for each activity and each subject. 
-	* export that table as a text file to the folder that houses the raw data. The new table will be called
-	"tidy_avg_JSkillman.txt"
+- loading the required text files from the downloaded dataset
+- merging factor variables such as "subject" and "activity" to the measurement variables dataset using "column binding"
+- adding descriptive variable names
+- merging/concatenating the training dataset and the test dataset using "row binding"
+- I've added a step here to add a factor variable, data_type, that notes which observations came from the test or training data
+- filter the dataset so that only mean or standard deviation measurements are included. I've assumed that variables labelled .meanFreq are not calculated means
+- add descriptive row names for the activity factor variable
+- create a tidy dataset with the average of each variable for each activity and each subject. 
+- export that table as a text file to the folder that houses the raw data. The new table will be called
+"tidy_avg_JSkillman.txt"
