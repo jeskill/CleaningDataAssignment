@@ -7,9 +7,7 @@ The dataset used in this assignment can be downloaded from the URL:
 "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 ###Experimental Design and Background
-30 volunteers performed six activities wearing a smartphone on the waist. An accelerometer and gyroscope embedded in the smartphone
-measured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The dataset was randomly partitioned 
-into a training set (70% of the volunteers) and a test set (30% of the volunteers). 
+30 volunteers performed six activities wearing a smartphone on the waist. An accelerometer and gyroscope embedded in the smartphone measured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The dataset was randomly partitioned into a training set (70% of the volunteers) and a test set (30% of the volunteers). 
 
 ###How the Data were processed
 1. merged training and test datasets, added a "data_type" field to denote a training or test measurement
@@ -22,13 +20,11 @@ by subject and activity name
 
 ###Raw Data 
 Descriptions of the raw variables can be found in the following files:
-- 'features_info.txt' - describes the measured and estimated variables 
-in the test and training sets. (numerical variables)
+- 'features_info.txt' - describes the measured and estimated variables. 
+in the test and training sets. (numerical variables, unitless, normalized bounded within -1 and 1)
 Also included in the raw dataset are:
-- subject_test / subject_training - a factor variable representing each volunteer
-measurements. (factor variable)
-- 'activity_labels.txt' -  - lists all the types of activities used in the 
-experiment. (factor variable)
+- subject_test / subject_training - a factor variable representing each sumbject's measurement. (factor variable)
+- 'activity_labels.txt' -  - lists all the types of activities used in the experiment. (factor variable)
 
 ###Processed Data
 The processed variables include 69 variables
