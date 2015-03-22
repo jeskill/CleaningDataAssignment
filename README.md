@@ -39,6 +39,7 @@ You can install libraries in the console by entering:
 Once those packages are installed, open the script in RStudio or R console.
 You can either use the command  
 >source("{folder/}}run_analysis.r") 
+
 to run the script, or select Code>Source in RStudio, or select Edit>Run all in R console.
 The script will download the file from the web to a folder it creates in your working directory. 
 If you have a specific folder you want to download the data into, you should set the 
